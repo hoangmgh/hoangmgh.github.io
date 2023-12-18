@@ -84,7 +84,7 @@ weightshape_np=np.array(np.transpose(np.broadcast_to(weights.T,(K,max_loci,weigh
         for i,j in enumerate(known_cells.keys()):
             for k in range(K):
                 if k!=i:
-                    weightshape_np[known_cells[j]-1,:,k]=weightshape_np[known_cells[j]-1,:,k]*10000    
+                    weightshape_np[known_cells[j]-1,:,k]=weightshape_np[known_cells[j]-1,:,k]*1000    
 ```
 and so the likelihood of seeing a known cell's genotype vector is:
 \begin{equation}
@@ -96,7 +96,7 @@ Instead of assigning the weights with 10000, perhaps there is a better way to re
 
 
 
-def cluster_step(max_loci,K,training_epochs,repeats,cell_counts,loci_counts,used_loci_indices,known_cells=False,min_ref=5,min_alt=5,lr=.1):
+def cluster_step(max_loci,K,training_epochs,repeats,cell_counts,loci_counts,used_loci_indices,  known_cells=False,min_ref=5,min_alt=5,lr=.1):
     print("loci being us based on min_alt, min_ref, and max_loci "+str(loci))
     cells = len(cell_counts)
     total_lost = 0
