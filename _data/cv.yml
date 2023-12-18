@@ -2,96 +2,86 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Hoang Tran
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13th July 1999
     - name: Languages
-      value: English, German
+      value: English, Vietnamese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BA
+      institution: Colby College, Waterville ME, USA
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
+        - Double major in Computational Biology and Mathematics
+        - Received Honor in the Computational Biology major
+        
+    
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Associate Computational Biologist
+      institution: Dr. Alexandra-Chloe Villani's Lab at Mass General Hospital, Harvard Medical School 
+      year: 2022 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on three main projects, i.e. Blood Immune Cell Atlas (ICA), the Thyroid Autoimmune Project, and the CSF iRAE neurotoxicity by checkpoint inhibitor
+    - title: Research trainee
+      institution: Dr. Alice Lee lab at the Boston Children's Hospital 
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Studied the transcriptomics landscape of Transposable Elements in Autoimmune Diseases and Alzheimer's Diseases, using scRNA-seq, scATAC-seq, and RNA-seq
+    - title: AI trainee
+      institution: Dr. Bang Son Le from University of Florida, David Tran's lab
+      year: 2021-2022
       description:
+        - Studied the fundamentals of Deep Learning, AI, model training, data embedding, and their application for Bioinformatics
+    - title: Biomedical Informatics Intern
+      institution: Vingroup BigData Institute, Biomedical Informatics group 
+      year: 2020-2021
+      description:
+        - Implemented Variant Annotation tools and Machine Learning frameworks to assess the pathogenicity of various genetic mutations across the human genome
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Ongoing  Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: re-engineered Souporcell 
+      year: Oct 2023-now
+      description: 
+      - Improvement of Souporcell, a genetic demultiplexing tool for scRNA-seq data
+    - title: Human Blood Cell Atlas Project (ICA)
+      year: July 2022-now
+      description: 
+      - This project aims at characterizing 15M PBMC cells across 30 Diseases in approx. 200 patients
+    - title: Thyroid Autoimmune Project
+      year: July 2022-now
+      description: 
+       - This study characterizes the immune population, molecular transcriptome, and TCR/BCR epitopes in Thyroid Autoimmune Diseases, using single-cell multi-omics data from Hashimotos, Graves, and Control patients
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Best paper award at International Conference for Knowledge KSE in Bangkok, Thailand
+    - year: 2021
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Colby College Grant for Independent Research - Awarded for one semester
+    - year: 2018
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Colby College Stipend for Summer Research - Awarded for one summer
+    - year: 2017
+      items: 
+        - First award in the Econometrics and Applications Olympiad (National)
+    - year: 2016
+      items: 
+        - First award in Hanoi Mathematics Olympiad (HMO) (Regional)
+    - year: 2015
+      items: 
+        - First award in the Hanoi Open Mathematics Olympiad (National)
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Diorama making, Photography, Teaching, Cooking

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Arts 
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some of the Art projects that I am working on - photography, Diorama. Diorama are made mostly with foam, plaplate, and oil paints.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [diorama,photography-2022-2023,photography-2021,photography-2020,photography-2019,photography-2018]
 horizontal: false
 ---
 
