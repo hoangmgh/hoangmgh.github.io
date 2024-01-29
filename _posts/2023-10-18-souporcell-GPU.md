@@ -247,5 +247,4 @@ clusters=cluster_step(max_loci=100,K=7,training_epochs=1000,repeats=30,cell_coun
                       cluster_tmp="cluster_simulated.tsv",known_cells=False,min_ref=5,min_alt=5,lr=.1)
 ```
 
-I randomly select 100 cells from each known cluster from an earlier experiment, and here is the performance in the case of imbalance-dataset:
 

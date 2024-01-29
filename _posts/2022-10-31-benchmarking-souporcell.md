@@ -105,7 +105,7 @@ N(x=v_c | \theta_i)  = e^{-\frac{\sqrt{(v_c-\theta_i)^TW(v_c-\theta_i)}}{2} }
 \end{equation}
 
 If an entry at loci $$j$$ of $$v_c$$ is not observed, then basically the $$j$$ entry in the diagonal of $$W$$ will be $$0$$, so that unobserved loci will be "muted out". If we consider cell $$v_c$$ to be coming from the cluster with $$\theta_i$$, then we want to set other $$N(x=v_c | \theta_j)=0$$ where $$j \neq i$$. We can do this by setting the diagonal of $$W$$ to be all 1000 or some higher value. That way
-$$\sqrt{(v_c-\theta_i)^TW(v_c-\theta_i)}$$ will be large enough.
+$$\sqrt{(v_c-\theta_i)^TW(v_c-\theta_i)}$$ will be large enough. Regardless, I think there might be a better way to convey this in tensorflow. In the future, we might want to encode, for example, some weights to be $$\infty$$, and so the result will be shrink down to $$0$$. Similarly, we can use 2 different weight matrices. One matrix would be the one to convey the missingness of the data, and the other one to convey the true weights of the mixture gaussian.
 
 With this set-up, I tested the imbalance scenarior (500 x1 and 2000 x 6):
 
