@@ -22,12 +22,9 @@ social: true  # includes social icons at the bottom of the page
 Hi, welcome to my personal blog!
 
 
-I am  an Associate Computational Biologist at the [Villani Lab](https://villani.mgh.harvard.edu/), where we use single-cell genomics technology to study autoimmunity and autoimmunity-like iRAE induced by checkpoint inhibitors.
+I am  an Associate Computational Biologist at the [Villani Lab](https://villani.mgh.harvard.edu/). We use single-cell genomics technology to study autoimmunity and autoimmunity-like iRAE induced by checkpoint inhibitors.
 
 Prior to this, I double-majored in Mathematics and Computational Biology at Colby College. During my undergraduate, I was  privileged to be mentored by [Dr. Nam Sy Vo](https://vingen.vinbigdata.org/en/teams/vo-sy-nam/) at the Vingroup BigData and [Dr. Alice Lee](https://compgen.hms.harvard.edu/)   at the Boston Children's Hospital, where I studied functional genomics and the landscape of Transposable Elements in Alzheimer's, respectively. 
 
-**Research:** I am interested in learning more about the biological landscape in Complex Diseases, such as Neurodegenerative Diseases or Autoimmune Conditions, using computational methods and modelling frameworks for nextgen sequencing data, particularly single-cell multi-omics data. My learning philosophy is by doing and reinventing the wheels - which I think are very rewarding and challenging simultaneously. Sometimes dissecting existing tools will help us learn about the conventional way of doing, and maybe invent our methods along the way. 
+**Research:** I am interested in learning more about the biological landscape of Complex Diseases, such as Neurodegenerative Diseases or Autoimmune Conditions, using computational methods and modelling frameworks for nextgen sequencing data such as single-cell multi-omics data. My learning philosophy is by doing and reinventing the wheels - which I think are very rewarding and challenging simultaneously. Sometimes dissecting existing tools will help us learn about the conventional way of doing, and maybe invent our methods along the way. 
 
-To fully embrace the richness of life and of our knowledge landscape, more often than not, we have to prepare. Let’s refine our tools, sharpen our knives,  and learn a bit about our destination. Jumping into the unknown without any prior knowledge or preparation can be reckless and, from my experience,might not be so fruitful. 
-
-**Trivia:** I love collecting film lenses, doing photography, painting, making architecture diorama, and teaching in the free time. Check out my Arts and Blog sections for some of the works I have done or are WIP.  
